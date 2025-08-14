@@ -139,7 +139,7 @@ class LinkedList{
         delete toDelete;
     }
 
-
+    void reverse(){}
     ~LinkedList(){
         Node *current = head;
         while(current!=nullptr){

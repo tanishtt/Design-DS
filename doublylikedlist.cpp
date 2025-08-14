@@ -108,6 +108,9 @@ class DoublyLinkedList{
         cout << "\n";
     }
     void printBackward(){}
+    void reverse(){
+        
+    }
     ~DoublyLinkedList(){
         Node *current = head;
         while(current!=nullptr){
